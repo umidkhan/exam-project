@@ -10,7 +10,7 @@ export default function Navbar() {
       <nav>
         <div className="conteiner text-center">
           <div className="row align-text-bottom">
-            <div className="col-3">
+            <div className="col-4">
               <img src={firstVector} alt="vector" className="navVector" />
             </div>
             <div className="col-7">
