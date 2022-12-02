@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+
+.section1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section1Title {
+  width: 350px;
+  /* height: 50px; */
+  margin-top: 170px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 0.02em;
+}
+
+.section1Text {
+  width: 600px;
+  font-family: "PT Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  /* line-height: 25px;
+  letter-spacing: 0.01em; */
+}
+
+.section1Col {
+  width: 100%;
+  /* display: flex;
+  justify-content: flex-end; */
+  /* flex-flow: row; */
+}
+
+.humanImage {
+  width: 380px;
+  height: 500px;
+}
+
+.section1ImgText {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+}
