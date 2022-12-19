@@ -25,3 +25,32 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+.myRow {
+  margin: 0;
+}
+
+/* ----------------------------------------------- START RESPONSIVE ------------------------------   */
+@media screen and (max-width: 415px) {
+  .navLogo {
+    width: 120px;
+    height: 30px;
+  }
+  .navVector {
+    margin-top: 0px;
+  }
+  nav {
+    height: 50px;
+  }
+  .callBox {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navLogo {
+    width: 125px;
+    height: 40px;
+  }
+}

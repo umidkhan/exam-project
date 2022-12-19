@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section.css";
+import "./Section3.css";
 import VerticalVector from "../images/verticalvector.png";
 import Line4 from "../images/Line4.png";
 import Food1 from "../images/food1.png";
@@ -13,7 +13,7 @@ export default function Section_3() {
         <div className="section3Vector">
           <img src={VerticalVector} alt="png" className="verticalVector" />
         </div>
-        <div className="container">
+        <div className="container mycontainer">
           <div className="row">
             <div className="col-9">
               <h1 className="section3Title">Сочетание несочетаемого</h1>

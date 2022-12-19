@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <div className="container d-flex">
+        <div className="container d-flex mycontainer">
           <div className="row">
             <div className="col-5">
               <h1 className="headerTitle">ГАСТРО - БИСТРО</h1>
@@ -22,7 +22,7 @@ export default function Header() {
                 <button className="headerBtn2">Заявка на мероприятие</button>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-4">
               <img src={CuttedImage} alt="" className="headerImage" />
             </div>
           </div>

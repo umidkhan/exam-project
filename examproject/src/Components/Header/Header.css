@@ -1,11 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
 
+body {
+  box-sizing: content-box;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
 header {
   width: 100%;
-  display: flex;
-  align-items: center;
-}
+} */
 
 .headerTitle {
   margin-top: 150px;
@@ -47,6 +57,7 @@ header {
 }
 
 .headerImage {
-  width: 862px;
+  width: 860px;
   height: 700px;
+  margin: 0;
 }
